@@ -1,0 +1,720 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+body {
+background-color: #202025;
+color: black;
+padding: 0;
+margin: 0;
+left: 0;
+right: 0;
+}
+
+/*dark mode toggle*/
+.dark-mode {
+  background-color: transparent;
+  color: blue;
+  cursor: pointer;
+}
+.dark-mode p {
+  
+  color: #0a0505;
+}
+
+.dark-mode h1 {
+  color: black;
+}
+.dark-mode header {
+  color: black;
+  background-color: #4c6185;
+}
+.preheader  span {
+  background-color: transparent;
+}
+
+.dark-mode .main  h1 {
+  color: #4c6185;
+}
+
+.dark-mode .drugidiv h1 {
+  padding-bottom: 25px;
+  color: #4c6185;
+}
+
+.dark-mode .animabox .pp {
+  color: black;
+}
+.dark-mode .aboutus .onama p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000cc;
+}
+
+
+.dark-mode .flip-card-front {
+  background: linear-gradient(120deg, rgb(133, 123, 223) 60%, rgb(81, 63, 136) 88%, rgb(187, 140, 245) 40%, rgba(80, 98, 255, 0.47) 48%);
+  color: #382b8c6a;
+}
+.dark-mode .flip-card-back {
+  color: #347DFE;
+  transform: rotateY(180deg);
+  background: #a197c3;
+}
+
+.dark-mode .main p {
+  font-size: 55px;
+  -webkit-text-stroke-width: 1.6px;
+  -webkit-text-stroke-color: #0a05056d;
+  -webkit-text-fill-color: #4c6185;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.dark-mode .ml11 .letter {
+  font-size: 70px;
+  display: inline-block;
+  line-height: 1em;
+  color: #2471be;
+  text-shadow: -6px -3px 3px rgba(19, 140, 89, 0.273);
+}
+
+.dark-mode .dreams p {
+  font-size: 16px;
+  color: gray;
+}
+
+.dark-mode .dreams h1 {
+  color: #000000;
+}
+
+.dark-mode .chartpic p {
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode .zadnja h1{
+color: rgb(0, 0, 0);
+}
+.dark-mode .zadnja hr {
+  background-color: #03A9F4;
+}
+.dark-mode .zadnja p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.dark-mode .hover-underline-animation {
+  position: relative;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+.dark-mode .chartpic p {
+  color: rgb(0 0 0);
+}
+.dark-mode 
+/*zavrsetak dark moda*/
+
+
+/*preheader*/
+
+
+/*TOOGLE*/
+.toggle-switch {
+  position: relative;
+  width: 100px;
+  height: 54px;
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
+.switch-label {
+  position: absolute;
+  width: 100%;
+  height: 33px;
+  background-color: var(--dark);
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid var(--dark);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+  box-shadow: inset 12px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+  background-color: var(--dark);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+header {
+    background-color: #27262d;
+}
+
+.preheader {
+  padding-top: 16px;
+   color: #27262d;
+   
+}
+
+.preheader a {
+  display: inline-block;
+    margin: 7px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.preheader a:hover {
+    text-decoration: none;
+    background-color:#2b8c69;
+    border-radius: 7px;
+    color:white;
+    transition: 0,8s;
+}
+
+.preheader button {
+    background-color: transparent;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    padding: 6px 34px;
+    border: 1px solid #347DFE;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preheader button:hover {
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+    transition: 0,7s;
+}
+/*animacija teksta FranikM*/
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  font-size: 70px;
+  display: inline-block;
+  line-height: 1em;
+  color: #ecedee;
+  text-shadow: -6px -3px 3px rgba(19, 140, 89, 0.273);
+}
+
+.main {
+  padding-top: 5%;
+}
+.main hr {
+    background-color: #347DFE;
+}
+
+.main p {
+    font-size: 55px;
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #0a0505;
+    -webkit-text-fill-color: #347DFE;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
+
+/*button ispod franikm natpisa*/
+
+.shadow__btn {
+ 
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+
+.drugidiv {
+    padding-top: 150px;
+}
+/*centriranje slike*/
+
+.drugidiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+/*drugi div*/
+.animabox h3 {
+    padding-top:10px;
+    font-size: 18px;
+    color: white;
+}
+.animabox p {
+    padding-top:10px;
+    font-size: 18px;
+    color: white;
+}
+.animabox label  {
+   display: inline-block;
+   border-radius: 25px;
+   margin: 10px;
+   padding: 120px;
+   -webkit-box-shadow: 3px -2px 9px 3px rgba(0, 0, 0, 0.405); 
+box-shadow: 3px -2px 9px 3px rgba(0, 0, 0, 0.405);
+}
+.animabox .pp {
+   font-size: 25px;;
+}
+.animabox label:hover {
+    transition: 0s;
+    background-color:#2b8c69 ;
+    
+    
+}
+.animabox hr {
+   background-color: #03A9F4;
+    width: 90%;
+}
+
+.slika {
+  background-image: url(./slike/zf111.png); display: inline-block;
+}
+
+
+/*naslov "Our Service"*/ 
+.drugidiv h1 {
+    padding-bottom: 25px;
+    color: white;
+}
+
+.drugidiv hr {
+   background-color: #2b8c69;
+   position: relative;
+    
+}
+
+.aboutus {
+
+    padding: 25px;
+    color: white;
+}
+.aboutus hr {
+    background-color: #2b8c69;
+}
+
+.aboutus .onama p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #eae8e6cc;
+}
+
+
+
+/*Urediivanje mastercard*/
+.flip-card p {
+    background-color: transparent;
+}
+
+.flip-card {
+    padding: 10px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin: 5px;
+    background-color: transparent;
+    width: 301px;
+    height: 227px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgb(22 85 186 / 74%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgb(22 85 186 / 74%);
+    border-radius: 1rem;
+    
+  }
+  
+  .flip-card-front {
+   
+    background: transparent;
+    color: #2b8c69;
+  }
+  
+  .flip-card-back {
+    background: linear-gradient(120deg, rgb(156, 255, 145) 30%, rgba(85, 243, 67, 0.43) 8%,
+       rgb(202, 255rgb(160, 255, 173)5, 185, 160) 78%);
+    color: #347DFE;
+    transform: rotateY(180deg);
+  }
+
+
+
+  /*social media*/
+
+  .social {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: solid 1px #C13584;
+    background: transparent;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: solid 1px #03A9F4;
+    background: transparent;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: solid 1px whitesmoke;
+    background: transparent;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: solid 1px #5562ea;
+    background: transparent;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+
+/*dreams sekcija*/
+
+.dreams p {
+  font-size: 16px;
+  color: gray;
+}
+
+.dreams h1 {
+  color: #ffffff;
+}
+
+.dreams hr {
+  background-color: #28a745;
+}
+
+.chartpic p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #eae8e6cc;
+}
+
+.chartpic img {
+  margin-left: 35px;
+}
+
+.chartpic img {
+  filter: drop-shadow(2px 4px 6px #0e0336);
+  width: 100%;
+  height: 100%;
+ 
+}
+/*sekcija sa our skils*/
+
+
+
+
+/*animacija na lijevoj strani stranice*/
+
+
+/*zadnja div sekcija za pretplatu na naš communty*/
+
+.zadnja h1{
+  color: white;
+}
+.zadnja hr {
+  background-color: #03A9F4;
+}
+.zadnja p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #eae8e6cc;
+}
+
+
+
+
+/*button za link kupovien comunnitya*/
+
+ button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.zadnja button {
+  --primary-color: #2b8c69;
+  --hovered-color: #03A9F4;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.zadnja button a {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.zadnja button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.zadnja button a::before {
+  position: absolute;
+/*   box-sizing: border-box; */
+  content: "Join Now!";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.zadnja button:hover::after {
+  width: 100%;
+}
+
+.zadnja button:hover a::before {
+  width: 100%;
+}
+
+.zadnja button:hover svg {
+  transform: translateX(4px);
+  color: var(--hovered-color)
+}
+
+.zadnja button svg {
+  color: var(--primary-color);
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
+
+/*karaj buttona*/
+
+
+
+
+
